@@ -10,7 +10,6 @@
         <PackageReference Include="Convey.CQRS.Events" Version="0.6.*" />
         <PackageReference Include="Convey.CQRS.Queries" Version="0.6.*" />
         <PackageReference Include="Convey.MessageBrokers" Version="0.6.*" />
-        <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
     </ItemGroup>
 
     <ItemGroup>
