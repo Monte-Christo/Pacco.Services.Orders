@@ -1,8 +1,8 @@
+using Pactify;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Pacco.Services.Orders.Application.DTO;
-using Pactify;
+using Pacco.Services.Parcels.Application.DTO;
 using Xunit;
 
 namespace Pacco.Services.Orders.PactConsumerTests.PACT
