@@ -33,7 +33,7 @@ namespace Pacco.Services.Orders.PactConsumerTests.PACT
                         .WithHeader("Content-Type", "application/json")
                         .WithStatusCode(HttpStatusCode.OK)
                         .WithBody<ParcelDto>()))
-                .PublishedAsFile("../../../../../../pacts")
+                .PublishedViaHttp("http://localhost:9292/pacts/provider/parcels/consumer/orders/version/0.1.1", HttpMethod.Put)
                 .MakeAsync();
         }
     }
